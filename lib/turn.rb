@@ -31,6 +31,6 @@ def turn(board)
   puts "Please enter 1-9"
   var a=0
   until a = 1
-    
+    gets.
   end
 end
