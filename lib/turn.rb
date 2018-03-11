@@ -28,10 +28,10 @@ def valid_move?(game, pos)
   end
 end
 def turn(board)
-  puts "Please enter 1-9"
+  
   a=0
   until a = 1
-    b=gets.strip
+    puts "Please enter 1-9"b=gets.strip
     c=input_to_index(b)
     if valid_move?(board, c)
       move(board, c)
