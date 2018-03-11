@@ -29,5 +29,8 @@ def valid_move?(game, pos)
 end
 def turn(board)
   puts "Please enter 1-9"
-  
+  var a=0
+  until a = 1
+    
+  end
 end
