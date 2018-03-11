@@ -28,3 +28,5 @@ def valid_move?(game, pos)
   end
 end
 def turn
+  
+end
