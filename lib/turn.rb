@@ -29,7 +29,7 @@ def valid_move?(game, pos)
 end
 def turn(board)
   a=0
-  until a = 1
+  until a == 1
     puts "Please enter 1-9"
     b=gets.strip
     c=input_to_index(b)
