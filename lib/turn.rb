@@ -31,6 +31,10 @@ def turn(board)
   puts "Please enter 1-9"
   var a=0
   until a = 1
-    gets.
+    b=gets.strip
+    c=input_to_index(b)
+    if valid_move?(board, c)
+      a=1
+    end
   end
 end
