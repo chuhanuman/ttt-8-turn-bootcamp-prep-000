@@ -27,3 +27,4 @@ def valid_move?(game, pos)
     return FALSE
   end
 end
+def turn
