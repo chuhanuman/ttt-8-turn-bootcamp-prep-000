@@ -20,3 +20,10 @@ def position_taken?(board, index)
     return FALSE
   end
 end
+def valid_move?(game, pos)
+  if (pos >= 0) && (pos < 8) && !(position_taken?(game, pos))
+    return TRUE
+  else 
+    return FALSE
+  end
+end
